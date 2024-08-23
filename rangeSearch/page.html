@@ -25,13 +25,13 @@
 </body>
 <script>
     const mapLocation = [53.35804, -6.248];
+
     var map = L.map('map').setView(mapLocation, 16);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19, attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
 
     //nucleo
     var marker = L.marker([53.35804, -6.248]).addTo(map);
-
     //Top
     var marker = L.marker([53.35964, -6.248]).addTo(map);
     //Top Left
