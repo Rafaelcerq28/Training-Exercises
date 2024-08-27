@@ -44,6 +44,18 @@ public class rageSearch {
 
         System.out.println("cruz montada");
 
+        //teste com kms
+        double lonKm = 111.32;
 
+
+        lon = 53.35683;
+        double teste = lon/5000;
+        System.out.println("lonkm " + lonKm / 50000);
+        System.out.println("teste " + teste);
+        System.out.println("lon+teste " + (lon + teste));
+        teste = lonKm / 50000;
+        System.out.println("lon+lonkm " + (lon + teste));
+        
+        //fim teste com kms
     }
 }
