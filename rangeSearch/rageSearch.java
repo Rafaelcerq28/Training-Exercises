@@ -55,7 +55,7 @@ public class rageSearch {
         System.out.println("lon+teste " + (lon + teste));
         teste = lonKm / 50000;
         System.out.println("lon+lonkm " + (lon + teste));
-        
+        System.out.println(Math.hypot(5, 5));
         //fim teste com kms
     }
 }
