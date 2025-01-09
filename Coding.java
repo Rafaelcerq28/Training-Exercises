@@ -24,7 +24,7 @@ public static void main(String[] args) {
     }
 
     System.out.println(newWord);
-
+    System.out.println("test");
 
 }
 }
